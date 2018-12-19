@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_refresh"
+        android:title="Refresh"
+        android:icon="@drawable/ic_autorenew_black_24dp"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menu_input"
+        android:title="Input"
+        android:icon="@drawable/ic_add_black_24dp"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menu_favorite"
+        android:title="Favorite"
+        android:icon="@drawable/ic_favorite_black_24dp"
+        app:showAsAction="always"/>
+
+</menu>
